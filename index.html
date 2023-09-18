@@ -1,0 +1,1328 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/wowbook/wow_book.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.1" />
+	<link rel="stylesheet" href="css/media.css?ver=1.1" />
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<header class="header">
+			<div class="header-top">
+				<div class="container">
+					<div class="header__wrapper">
+						<div class="header__left">
+							<a href="#" class="logo">
+								<img src="img/logo.svg" alt="alt">
+							</a>
+							<div class="main-language">
+								<div class="main-language__value">Ru</div>
+								<ul class="main-language__dropdown">
+									<li><a href="#">Ru</a></li>
+									<li><a href="#">Eng</a></li>
+								</ul>
+							</div>
+							<div class="header-search">
+								<form>
+									<input type="text" placeholder="Поиск" required="required">
+									<button class="btn-search"><i class="far fa-search"></i></button>
+								</form>
+								<div class="open-search"><i class="far fa-search"></i></div>
+							</div>
+						</div>
+						<div class="header__right">
+							<a href="#" class="btn-user">
+								<img src="img/user.svg" alt="alt">
+							</a>
+							<a href="tel:+79258716557" class="phone-main">+7 (925) 871-65-57</a>
+							<ul class="social-list">
+								<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+								<li><a href="#"><i class="fab fa-vk"></i></a></li>
+								<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+							</ul>
+							<a href="#" class="btn-call"><i class="fas fa-phone-alt"></i></a>
+						</div>
+						<span class='sandwich sandwich_mobile'>
+							<span class='sw-topper'></span>
+							<span class='sw-bottom'></span>
+							<span class='sw-footer'></span>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="header-bottom">
+				<div class="container">
+					<div class="header__wrapper">
+						<div class="header-bottom__mobile">
+							<div class="header-search">
+								<form>
+									<input type="text" placeholder="Поиск" required="required">
+									<button class="btn-search"><i class="far fa-search"></i></button>
+								</form>
+							</div>
+						</div>
+						<span class='sandwich sandwich_catalog'>
+							<span class='sw-topper'></span>
+							<span class='sw-bottom'></span>
+							<span class='sw-footer'></span>
+						</span>
+						<div class="dropdown-catalog">
+							<div class="dropdown-catalog__title">наша продукция  <i class="far fa-chevron-down"></i></div>
+							<ul>
+								<li><a href="#">Алкидные смолы</a></li>
+								<li><a href="#">Акриловые смолы</a></li>
+								<li><a href="#">Полиэфирные смолы насыщенные </a></li>
+								<li><a href="#">Ненасыщенные полиэфирные смолы</a></li>
+								<li><a href="#">Полиизоцианаты</a></li>
+							</ul>
+						</div>
+						<ul class="menu">
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Новости</a></li>
+							<li><a href="#">Условия работы</a></li>
+							<li><a href="#">Поддержка</a></li>
+							<li><a href="#">Заказ продукции</a></li>
+							<li><a href="#">Поставщикам</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+						<div class="header-bottom__mobile">
+							<div class="main-language">
+								<div class="main-language__value">Ru</div>
+								<ul class="main-language__dropdown">
+									<li><a href="#">Ru</a></li>
+									<li><a href="#">Eng</a></li>
+								</ul>
+							</div>
+							<ul class="social-list">
+								<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+								<li><a href="#"><i class="fab fa-vk"></i></a></li>
+								<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="menu-overlay"></div>
+		</header>
+
+		<section class="billbord">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8">
+						<ul class="slider-billbord">
+							<li>
+								<div class="item-billbord">
+									<h2 class="title-big">ATTIKA <span>Resin's expert</span></h2>
+									<ul class="list-page">
+										<li>Производим качественные смолы более 15 лет в России и странах СНГ</li>
+										<li>Самое современное и автоматизированное производство полимерных смол в СНГ</li>
+										<li>Официальный партнёр лидера европейского рынка</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<div class="item-billbord">
+									<h2 class="title-big">ATTIKA <span>Resin's expert</span></h2>
+									<ul class="list-page">
+										<li>Производим качественные смолы более 15 лет в России и странах СНГ</li>
+										<li>Самое современное и автоматизированное производство полимерных смол в СНГ</li>
+										<li>Официальный партнёр лидера европейского рынка</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<div class="item-billbord">
+									<h2 class="title-big">ATTIKA <span>Resin's expert</span></h2>
+									<ul class="list-page">
+										<li>Производим качественные смолы более 15 лет в России и странах СНГ</li>
+										<li>Самое современное и автоматизированное производство полимерных смол в СНГ</li>
+										<li>Официальный партнёр лидера европейского рынка</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<div class="item-billbord">
+									<h2 class="title-big">ATTIKA <span>Resin's expert</span></h2>
+									<ul class="list-page">
+										<li>Производим качественные смолы более 15 лет в России и странах СНГ</li>
+										<li>Самое современное и автоматизированное производство полимерных смол в СНГ</li>
+										<li>Официальный партнёр лидера европейского рынка</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-4">
+						<div class="item-banner">
+							<div class="item-banner__image">
+								<img src="img/banner1.jpg" alt="alt">
+							</div>
+							<div class="item-banner__content">
+								<div class="item-banner__title">synthalat a 077</div>
+								<div class="item-banner__text">акриловая гидроксифункциональная смола</div>
+								<div class="item-banner__value">OK. 2,6%</div>
+								<a href="#" class="btn-main">Подробнее</a>
+							</div>
+						</div>
+						<div class="item-banner">
+							<div class="item-banner__image">
+								<img src="img/banner1.jpg" alt="alt">
+							</div>
+							<div class="item-banner__content">
+								<div class="item-banner__title">synthalat a 077</div>
+								<div class="item-banner__text">акриловая гидроксифункциональная смола</div>
+								<div class="item-banner__value">OK. 2,6%</div>
+								<a href="#" class="btn-main">Подробнее</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8">
+						<h2 class="title-section">О нас в цифрах</h2>
+						<div class="row row_about">
+							<div class="col-md-6">
+								<div class="item-about">
+									<div class="item-about__value">19 <span>лет</span></div>
+									<div class="item-about__text">на рынке <br>химического сырья</div>
+									<div class="item-about__image">
+										<img src="img/item_about1.jpg" alt="alt">
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-6">
+								<div class="item-about item-about_vec">
+									<div class="item-about__value">1 700+ <span>тонн</span></div>
+									<div class="item-about__text">готовой продукции в наличии</div>
+									<div class="item-about__image">
+										<img src="img/item_about2.jpg" alt="alt">
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-6">
+								<div class="item-about item-about_vec">
+									<div class="item-about__value">2</div>
+									<div class="item-about__text">производственные площадки</div>
+									<div class="item-about__image">
+										<img src="img/item_about3.svg" alt="alt">
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-6">
+								<div class="item-about item-about_vec">
+									<div class="item-about__value">8</div>
+									<div class="item-about__text">представительств <br>в России и СНГ</div>
+									<div class="item-about__image">
+										<img src="img/item_about4.png" alt="alt">
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-6">
+								<div class="item-about item-about_vec">
+									<div class="item-about__value">800+</div>
+									<div class="item-about__text">партнёров в России <br>и СНГ</div>
+									<div class="item-about__image">
+										<img src="img/item_about3.svg" alt="alt">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<h2 class="title-section">Вебинары и мероприятия</h2>
+						<div class="wrapper-events">
+							<a href="#" class="item-event">
+							<span class="date-main">22.02 - 03.03.2023</span>
+							<span class="item-event__title">Приглашаем Вас посетить наш стенд на выставке «Интерлакокраска 2023»</span>
+						</a>
+						<a href="#" class="item-event">
+							<span class="date-main">22.02 - 03.03.2023</span>
+							<span class="item-event__title">Приглашаем Вас посетить наш стенд на выставке «Интерлакокраска 2023»</span>
+						</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="principles">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8">
+						<h2 class="title-section">Наши принципы</h2>
+						<div class="block-principles">
+							<div class="item-principle">
+								<div class="item-principle__value">P</div>
+								<div class="item-principle__content">
+									<div class="title-middle">Профессионализм</div>
+									<p>Мы считаем, что именно наши знания и опыт могут <br>быть полезным нашим клиентам и партнёрам</p>
+								</div>
+							</div>
+							<div class="item-principle">
+								<div class="item-principle__value">R</div>
+								<div class="item-principle__content">
+									<div class="title-middle">Уважение</div>
+									<p>Мы верим, что именно уважение, как к нашим клиентам, партнёрам позволит нам построить долгосрочное и взаимовыгодное сотрудничество</p>
+								</div>
+							</div>
+							<div class="item-principle">
+								<div class="item-principle__value">E</div>
+								<div class="item-principle__content">
+									<div class="title-middle">Эффективность</div>
+									<p>Мы уверены, что выполнение поставленных целей и обязательств является неотъемлемой частью нашего общего успеха</p>
+								</div>
+							</div>
+							<div class="item-principle">
+								<div class="item-principle__value">F</div>
+								<div class="item-principle__content">
+									<div class="title-middle">Финансы</div>
+									<p>Мы считаем, что финансовая независимость позволяет жить свободной и полноценной жизнь, как сотрудникам, так и к компаниям</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<h2 class="title-section">Новости</h2>
+						<div class="wrapper-news">
+							<a href="#" class="item-news">
+								<span class="item-news__image">
+									<img src="img/news1.jpg" alt="alt">
+								</span>
+								<span class="item-news__content">
+									<span class="item-news__date">13 сентября 2023</span>
+									<span class="item-news__title">Повышение производительности труда и поддержка занятости</span>
+								</span>
+							</a>
+							<a href="#" class="item-news">
+								<span class="item-news__image">
+									<img src="img/news1.jpg" alt="alt">
+								</span>
+								<span class="item-news__content">
+									<span class="item-news__date">13 сентября 2023</span>
+									<span class="item-news__title">Повышение производительности труда и поддержка занятости</span>
+								</span>
+							</a>
+						</div>
+						<a href="#" class="btn-main btn-main_sidebar">подПИСАТЬСЯ НА НОВОСТИ</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="advantages">
+			<div class="container">
+				<h2 class="title-section">Наши преимущества</h2>
+				<div class="row row_advantages">
+					<div class="col-lg-3 col-6">
+						<div class="item-advantage">
+							<div class="item-advantage__icon">
+								<img src="img/ic_avd1.svg" alt="alt">
+							</div>
+							<p>Стандарт безопасности производства и охраны труда</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-6">
+						<div class="item-advantage">
+							<div class="item-advantage__icon">
+								<img src="img/ic_avd2.svg" alt="alt">
+							</div>
+							<p>Принцип открытости и доверия</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-6">
+						<div class="item-advantage">
+							<div class="item-advantage__icon">
+								<img src="img/ic_avd3.svg" alt="alt">
+							</div>
+							<p>Принцип <br>вовлеченности</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-6">
+						<div class="item-advantage">
+							<div class="item-advantage__icon">
+								<img src="img/ic_avd4.svg" alt="alt">
+							</div>
+							<p>Стандарт <br>«Разбитых окон»</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-6">
+						<div class="item-advantage">
+							<div class="item-advantage__icon">
+								<img src="img/ic_avd5.svg" alt="alt">
+							</div>
+							<p>Стандарт улучшений малыми шагами</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-6">
+						<div class="item-advantage">
+							<div class="item-advantage__icon">
+								<img src="img/ic_avd6.svg" alt="alt">
+							</div>
+							<p>Стандарт бережливого производства</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-6">
+						<div class="item-advantage">
+							<div class="item-advantage__icon">
+								<img src="img/ic_avd7.svg" alt="alt">
+							</div>
+							<p>Система менеджмента качества ИСО 9001:2015</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="catalog">
+			<div class="container">
+				<div class="head-section">
+					<h2 class="title-section">Наша продукция</h2>
+					<a href="#" class="btn-main">вся продукция</a>
+				</div>
+				<ul class="tabs">
+					<li class="active"><a href="#tab1">ЛКМ</a></li>
+					<li><a href="#tab2">Композиты</a></li>
+					<li><a href="#tab3">Индустриальные покрытия</a></li>
+					<li><a href="#tab4">Авторемонт</a></li>
+					<li><a href="#tab5">Композитные изделия</a></li>
+					<li><a href="#tab6">Покрытия для коммерческого и с/х транспорта</a></li>
+					<li><a href="#tab7">Покрытия по бетону и асфальту</a></li>
+				</ul>
+				<div class="tab-container">
+					<div class="tab-pane" id="tab1">
+						<ul class="slider-catalog">
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 745</a>
+									<div class="item-catalog__descr">Ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog2.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 725</a>
+									<div class="item-catalog__descr">Тиксотропная полиэфирная смола с индикатором отверждения</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog3.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 215</a>
+									<div class="item-catalog__descr">Нетиксотропная ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 745</a>
+									<div class="item-catalog__descr">Ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog2.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 725</a>
+									<div class="item-catalog__descr">Тиксотропная полиэфирная смола с индикатором отверждения</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog3.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 215</a>
+									<div class="item-catalog__descr">Нетиксотропная ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="tab-pane" id="tab2">
+						<ul class="slider-catalog">
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 745</a>
+									<div class="item-catalog__descr">Ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog2.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 725</a>
+									<div class="item-catalog__descr">Тиксотропная полиэфирная смола с индикатором отверждения</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog3.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 215</a>
+									<div class="item-catalog__descr">Нетиксотропная ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 745</a>
+									<div class="item-catalog__descr">Ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog2.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 725</a>
+									<div class="item-catalog__descr">Тиксотропная полиэфирная смола с индикатором отверждения</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog3.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 215</a>
+									<div class="item-catalog__descr">Нетиксотропная ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="tab-pane" id="tab3">
+						<ul class="slider-catalog">
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 745</a>
+									<div class="item-catalog__descr">Ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog2.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 725</a>
+									<div class="item-catalog__descr">Тиксотропная полиэфирная смола с индикатором отверждения</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog3.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 215</a>
+									<div class="item-catalog__descr">Нетиксотропная ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 745</a>
+									<div class="item-catalog__descr">Ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog2.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 725</a>
+									<div class="item-catalog__descr">Тиксотропная полиэфирная смола с индикатором отверждения</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog3.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 215</a>
+									<div class="item-catalog__descr">Нетиксотропная ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="tab-pane" id="tab4">
+						<ul class="slider-catalog">
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 745</a>
+									<div class="item-catalog__descr">Ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog2.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 725</a>
+									<div class="item-catalog__descr">Тиксотропная полиэфирная смола с индикатором отверждения</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog3.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 215</a>
+									<div class="item-catalog__descr">Нетиксотропная ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 745</a>
+									<div class="item-catalog__descr">Ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog2.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 725</a>
+									<div class="item-catalog__descr">Тиксотропная полиэфирная смола с индикатором отверждения</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog3.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 215</a>
+									<div class="item-catalog__descr">Нетиксотропная ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="tab-pane" id="tab5">
+						<ul class="slider-catalog">
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 745</a>
+									<div class="item-catalog__descr">Ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog2.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 725</a>
+									<div class="item-catalog__descr">Тиксотропная полиэфирная смола с индикатором отверждения</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog3.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 215</a>
+									<div class="item-catalog__descr">Нетиксотропная ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 745</a>
+									<div class="item-catalog__descr">Ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog2.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 725</a>
+									<div class="item-catalog__descr">Тиксотропная полиэфирная смола с индикатором отверждения</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog3.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 215</a>
+									<div class="item-catalog__descr">Нетиксотропная ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="tab-pane" id="tab6">
+						<ul class="slider-catalog">
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 745</a>
+									<div class="item-catalog__descr">Ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog2.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 725</a>
+									<div class="item-catalog__descr">Тиксотропная полиэфирная смола с индикатором отверждения</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog3.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 215</a>
+									<div class="item-catalog__descr">Нетиксотропная ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 745</a>
+									<div class="item-catalog__descr">Ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog2.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 725</a>
+									<div class="item-catalog__descr">Тиксотропная полиэфирная смола с индикатором отверждения</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog3.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 215</a>
+									<div class="item-catalog__descr">Нетиксотропная ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="tab-pane" id="tab7">
+						<ul class="slider-catalog">
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 745</a>
+									<div class="item-catalog__descr">Ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog2.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 725</a>
+									<div class="item-catalog__descr">Тиксотропная полиэфирная смола с индикатором отверждения</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog3.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 215</a>
+									<div class="item-catalog__descr">Нетиксотропная ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 745</a>
+									<div class="item-catalog__descr">Ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog2.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 725</a>
+									<div class="item-catalog__descr">Тиксотропная полиэфирная смола с индикатором отверждения</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog3.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">ATTSHIELD OP 215</a>
+									<div class="item-catalog__descr">Нетиксотропная ненасыщенная полиэфирная смола</div>
+									<div class="item-catalog__bottom">
+										<div class="price-main">298,80 Р/кг</div>
+										<a href="#" class="btn-main btn-main_block">Подробнее</a>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="catalog-magazine">
+			<div class="container">
+				<h2 class="title-section">Каталог продукции</h2>
+				<div class="viewer-block">
+					<div class="viewer">
+						<div class="viewer__item">
+							<img src="img/catalog_page-0001.jpg"/>
+						</div>
+						<div class="viewer__item">
+							<img src="img/catalog_page-0001.jpg"/>
+						</div>
+						<div class="viewer__item">
+							<img src="img/catalog_page-0002.jpg"/>
+						</div>
+						<div class="viewer__item">
+							<img src="img/catalog_page-0003.jpg"/>
+						</div>
+						<div class="viewer__item">
+							<img src="img/catalog_page-0004.jpg"/>
+						</div>
+						<div class="viewer__item">
+							<img src="img/catalog_page-0005.jpg"/>
+						</div>
+						<div class="viewer__item">
+							<img src="img/catalog_page-0006.jpg"/>
+						</div>
+						<div class="viewer__item">
+							<img src="img/catalog_page-0007.jpg"/>
+						</div>
+						<div class="viewer__item">
+							<img src="img/catalog_page-0008.jpg"/>
+						</div>
+						<div class="viewer__item">
+							<img src="img/catalog_page-0009.jpg"/>
+						</div>
+						<div class="viewer__item">
+							<img src="img/catalog_page-0010.jpg"/>
+						</div>
+						<div class="viewer__item">
+							<img src="img/catalog_page-0011.jpg"/>
+						</div>
+						<div class="viewer__item">
+							<img src="img/catalog_page-0012.jpg"/>
+						</div>
+						<div class="viewer__item">
+							<img src="img/catalog_page-0013.jpg"/>
+						</div>
+						<div class="viewer__item">
+							<img src="img/catalog_page-0014.jpg"/>
+						</div>
+						<div class="viewer__item">
+							<img src="img/catalog_page-0015.jpg"/>
+						</div>
+						<div class="viewer__item">
+							<img src="img/catalog_page-0016.jpg"/>
+						</div>
+						<div class="viewer__item">
+							<img src="img/catalog_page-0017.jpg"/>
+						</div>
+						<div class="viewer__item">
+							<img src="img/catalog_page-0018.jpg"/>
+						</div>
+						<div class="viewer__item">
+							<img src="img/catalog_page-0019.jpg"/>
+						</div>
+						<div class="viewer__item">
+							<img src="img/catalog_page-0020.jpg"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="partners">
+			<div class="container">
+				<div class="partners-block">
+					<h2 class="title-section">Наши партнеры</h2>
+					<ul class="slider-partners">
+						<li>
+							<div class="item-partner">
+								<img src="img/partner1.png" alt="alt">
+							</div>
+						</li>
+						<li>
+							<div class="item-partner">
+								<img src="img/partner2.png" alt="alt">
+							</div>
+						</li>
+						<li>
+							<div class="item-partner">
+								<img src="img/partner3.png" alt="alt">
+							</div>
+						</li>
+						<li>
+							<div class="item-partner">
+								<img src="img/partner4.png" alt="alt">
+							</div>
+						</li>
+						<li>
+							<div class="item-partner">
+								<img src="img/partner5.png" alt="alt">
+							</div>
+						</li>
+						<li>
+							<div class="item-partner">
+								<img src="img/partner6.png" alt="alt">
+							</div>
+						</li>
+						<li>
+							<div class="item-partner">
+								<img src="img/partner7.png" alt="alt">
+							</div>
+						</li>
+						<li>
+							<div class="item-partner">
+								<img src="img/partner1.png" alt="alt">
+							</div>
+						</li>
+						<li>
+							<div class="item-partner">
+								<img src="img/partner2.png" alt="alt">
+							</div>
+						</li>
+						<li>
+							<div class="item-partner">
+								<img src="img/partner3.png" alt="alt">
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3">
+						<a href="#" class="logo">
+							<img src="img/logo2.svg" alt="alt">
+						</a>
+						<div class="requisites">
+							<p>Главный офис</p>
+							<p>ООО «Aттика Логистика»</p>
+							<p>187046, Россия, Ленинградская обл., </p>
+							<p>Тосненский р-н, д. Аннолово,</p>
+							<p>Федоровское сельское поселение, </p>
+							<p>2-й Вертикальный проезд, 9, к 1</p>
+							<p>ОГРН: 1117847130895; </p>
+							<p>ИНН: 7841442909</p>
+							<br>
+							<p>info@attikarus.ru</p>
+						</div>
+						<a href="tel:+79258716557" class="phone-main">+7 (925) 871-65-57</a>
+						<ul class="list-social">
+							<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+							<li><a href="#"><i class="fab fa-vk"></i></a></li>
+							<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-2 col_pl">
+						<div class="footer__column">
+							<div class="footer__title">отрасли применения  <i class="fas fa-chevron-down"></i></div>
+							<div class="footer__content">
+								<ul class="footer__nav">
+									<li><a href="#">Индустриальные покрытия</a></li>
+									<li><a href="#">Авторемонт</a></li>
+									<li><a href="#">Покрытия для коммерческого </a></li>
+									<li><a href="#">и сельхоз транспорта</a></li>
+									<li><a href="#">Покрытия по бетону и асфальту</a></li>
+									<li><a href="#">Композитные изделия</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col_lr">
+						<div class="footer__title">наша продукция  <i class="fas fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Алкидные смолы</a></li>
+								<li><a href="#">Акриловые смолы</a></li>
+								<li><a href="#">Полиэфирные смолы насыщенные </a></li>
+								<li><a href="#">Ненасыщенные полиэфирные смолы</a></li>
+								<li><a href="#">Полиизоцианаты</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<ul class="footer__nav footer__nav_big">
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Новости</a></li>
+							<li><a href="#">Условия работы</a></li>
+							<li><a href="#">Поддержка</a></li>
+							<li><a href="#">Заказ продукции</a></li>
+							<li><a href="#">Поставщикам</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col_pl">
+						<div class="footer__title">представительства «attika» </div>
+						<div id="map"></div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg">
+							<a href="#">Политика конфиденциальности </a>
+						</div>
+						<div class="col-lg">
+							<a href="#">Антикоррупционная политика</a>
+						</div>
+						<div class="col-lg">
+							<p> © Copyright  2023 г.</p>
+						</div>
+						<div class="col-lg">
+							<div class="create">Сделано в <a href="#"><img src="img/copy.svg" alt="alt"></a></div>
+						</div>
+						<div class="col-lg">
+							<a href="#" class="btn_top"><i class="far fa-arrow-up"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/wowbook/wow_book.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.1"></script>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+<script>
+	$(document).ready(function() {
+		ymaps.ready(init);
+
+		function init() {
+			var myMap = new ymaps.Map('map', {
+				center: [50.886551, 44.562018],
+				zoom: 3
+			}, {
+				searchControlProvider: 'yandex#search'
+			});		
+
+			myPlacemark1 = new ymaps.Placemark([59.327442, 34.010747], {
+			}, {
+				iconLayout: 'default#image',
+				iconImageHref: 'img/pin.svg',
+				hideIconOnBalloonOpen: false,
+				iconImageSize: [25, 28],
+				iconImageOffset: [-12, -28],
+				balloonOffset: [0, -28]
+			});
+			myPlacemark2 = new ymaps.Placemark([55.812521, 37.702154], {
+			}, {
+				iconLayout: 'default#image',
+				iconImageHref: 'img/pin.svg',
+				hideIconOnBalloonOpen: false,
+				iconImageSize: [25, 28],
+				iconImageOffset: [-12, -28],
+				balloonOffset: [0, -28]
+			});
+			myPlacemark3 = new ymaps.Placemark([54.810001, 40.119146], {
+			}, {
+				iconLayout: 'default#image',
+				iconImageHref: 'img/pin.svg',
+				hideIconOnBalloonOpen: false,
+				iconImageSize: [25, 28],
+				iconImageOffset: [-12, -28],
+				balloonOffset: [0, -28]
+			});
+			myPlacemark4 = new ymaps.Placemark([54.733783, 55.983404], {
+			}, {
+				iconLayout: 'default#image',
+				iconImageHref: 'img/pin.svg',
+				hideIconOnBalloonOpen: false,
+				iconImageSize: [25, 28],
+				iconImageOffset: [-12, -28],
+				balloonOffset: [0, -28]
+			});
+			myPlacemark5 = new ymaps.Placemark([45.238646, 38.827155], {
+			}, {
+				iconLayout: 'default#image',
+				iconImageHref: 'img/pin.svg',
+				hideIconOnBalloonOpen: false,
+				iconImageSize: [25, 28],
+				iconImageOffset: [-12, -28],
+				balloonOffset: [0, -28]
+			});
+			myPlacemark6 = new ymaps.Placemark([46.284401, 48.099616], {
+			}, {
+				iconLayout: 'default#image',
+				iconImageHref: 'img/pin.svg',
+				hideIconOnBalloonOpen: false,
+				iconImageSize: [25, 28],
+				iconImageOffset: [-12, -28],
+				balloonOffset: [0, -28]
+			});
+			myMap.controls.remove('searchControl');
+			myMap.behaviors.disable('scrollZoom');
+			myMap.geoObjects.add(myPlacemark1);
+			myMap.geoObjects.add(myPlacemark2);
+			myMap.geoObjects.add(myPlacemark3);
+			myMap.geoObjects.add(myPlacemark4);
+			myMap.geoObjects.add(myPlacemark5);
+			myMap.geoObjects.add(myPlacemark6);
+
+			myMap.controls.remove('geolocationControl');
+			myMap.controls.remove('searchControl'); 
+			myMap.controls.remove('trafficControl'); 
+			myMap.controls.remove('typeSelector');
+			myMap.controls.remove('fullscreenControl'); 
+			myMap.controls.remove('zoomControl');
+			myMap.controls.remove('rulerControl');
+			myMap.behaviors.disable(['scrollZoom']); 
+
+		}
+	});
+</script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
