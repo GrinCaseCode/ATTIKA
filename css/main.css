@@ -1744,3 +1744,9 @@ div.col_lr {
 .page-catalog {
 	padding-bottom: 49px;
 }
+.header.fixed {
+	background-color: #fff;
+}
+.title-sidebar i {
+	display: none;
+}

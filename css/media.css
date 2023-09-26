@@ -30,9 +30,9 @@
         font-size: 15px;
     }
     .btn-user img {
-     max-width: 18px;
- }
- .header-search.active form {
+       max-width: 18px;
+   }
+   .header-search.active form {
     width: 375px;
 }
 .sandwich {
@@ -151,8 +151,8 @@
     margin-right: 15px;
 }
 .item-advantage__icon img {
- max-width: 100%;
- max-height: 100%;
+   max-width: 100%;
+   max-height: 100%;
 }
 .item-advantage {
     height: 210px;
@@ -354,6 +354,44 @@
 .page-categories .title-section {
     padding-bottom: 29px;
 }
+.title-sidebar {
+    font-size: 18px;
+    padding: 14px 0;
+}
+.slidebar-catalog a {
+    padding: 12px 15px;
+    padding-right: 7px;
+}
+.fliter-catalog a {
+    height: 37px;
+    padding: 0 9px;
+    font-size: 12px;
+}
+.fliter-catalog li {
+    padding: 0 3px;
+    margin-bottom: 6px;
+}
+.fliter-catalog {
+    margin: 0 -3px;
+    margin-bottom: 22px;
+}
+.title-sorting {
+    margin-right: 21px;
+}
+.list-sorting li {
+    margin-right: 25px;
+}
+.sorting-wrapper {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.row_catalog > div {
+    margin-bottom: 20px;
+}
+.page-numbers {
+    font-size: 16px;
+    margin: 0 16px;
+}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -381,9 +419,9 @@
         margin-right: -16px;
     }
     .billbord .row {
-     margin: 0 -6px;
- }
- .item-banner__title {
+       margin: 0 -6px;
+   }
+   .item-banner__title {
     font-size: 17px;
 }
 .item-banner__value {
@@ -582,6 +620,13 @@
     font-size: 24px;
     padding-bottom: 15px;
 }
+.title-sidebar {
+    font-size: 16px;
+}
+.title-page {
+    font-size: 28px;
+    padding-bottom: 16px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -591,13 +636,13 @@
 	.header__wrapper .social-list,
 	.header__wrapper .phone-main,
     .header__wrapper .main-language {
-     display: none;
- }
- .item-banner {
-     margin-top: 20px;
-     margin-bottom: 0;
- }
- .item-news__image {
+       display: none;
+   }
+   .item-banner {
+       margin-top: 20px;
+       margin-bottom: 0;
+   }
+   .item-news__image {
     height: 165px;
 }
 .tabs {
@@ -725,9 +770,9 @@ div.col_pl {
 	justify-content: space-between;
 }
 .btn-call {
- border: 1px solid #F3F3F3;
- color: #2E4292;
- background-color: transparent;
+   border: 1px solid #F3F3F3;
+   color: #2E4292;
+   background-color: transparent;
 }
 .header-bottom .header__wrapper {
 	display: block;
@@ -758,9 +803,9 @@ div.col_pl {
 	justify-content: space-between;
 	border-bottom: 1px solid #2E4292;
 	text-transform: uppercase;
- font-weight: 600;
- line-height: normal;
- letter-spacing: 0.75px;
+   font-weight: 600;
+   line-height: normal;
+   letter-spacing: 0.75px;
 }
 .dropdown-catalog ul {
 	padding: 15px;
@@ -908,6 +953,46 @@ div.col_pl {
 .page-categories {
     padding-bottom: 20px;
 }
+.slidebar-catalog {
+    display: none;
+}
+.title-sidebar i {
+    font-size: 13px;
+    display: block;
+    transition: all 0.3s;
+}
+.title-sidebar {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title-sidebar.active i {
+    transform: rotate(180deg);
+}
+.fliter-catalog a {
+    height: 33px;
+}
+.sorting-wrapper {
+    display: block;
+    margin-bottom: 0;
+}
+.block-sorting {
+    margin-bottom: 15px;
+}
+.row_catalog {
+    margin: 0 -5px;
+}
+.row_catalog > div {
+    padding: 0 5px;
+    margin-bottom: 10px;
+}
+.page-catalog .section-text {
+    padding-top: 30px;
+}
+.page-catalog {
+    padding-bottom: 35px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -918,9 +1003,9 @@ div.col_pl {
         line-height: 130%;
     }
     .list-page li {
-     margin-bottom: 8px;
- }
- .title-big {
+       margin-bottom: 8px;
+   }
+   .title-big {
     font-size: 30px;
 }
 .title-big span {
@@ -1125,17 +1210,17 @@ div.col_pl {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
     .slider-billbord {
-     margin: 0 -15px;
- }
- .item-billbord {
-     padding: 0 15px;
-     border-radius: 0;
- }
- .list-page li::before {
-     width: 15px;
-     height: 15px;
- }
- .item-billbord .list-page {
+       margin: 0 -15px;
+   }
+   .item-billbord {
+       padding: 0 15px;
+       border-radius: 0;
+   }
+   .list-page li::before {
+       width: 15px;
+       height: 15px;
+   }
+   .item-billbord .list-page {
     max-width: 215px;
     font-size: 12px;
 }
@@ -1147,9 +1232,9 @@ div.col_pl {
     bottom: 8px;
 }
 .item-principle {
- font-size: 13px;
- line-height: 120%;
- margin-bottom: 18px;
+   font-size: 13px;
+   line-height: 120%;
+   margin-bottom: 18px;
 }
 .title-middle {
     font-size: 18px;
@@ -1205,8 +1290,8 @@ div.col_pl {
     max-width: 332px;
 }
 .partners-block {
- padding: 0 15px;
- padding-bottom: 55px;
+   padding: 0 15px;
+   padding-bottom: 55px;
 }
 .head-section .btn-main {
     padding: 0 14px;
@@ -1384,10 +1469,11 @@ div.col_pl {
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	.footer__content,
+    .slidebar-catalog,
+    .footer__content,
     .header-bottom {
-     display: block !important;
- }
+       display: block !important;
+   }
 }
 
 /* Large Devices, Wide Screens */

@@ -21,10 +21,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
 
-  $(".viewer").wowBook({
-  
-  });
- $.wowBook(".viewer").advance();
+
 
 	//кнопка sandwich
 	$(".sandwich_catalog").click(function() {
@@ -46,6 +43,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 			$(".menu-overlay").fadeOut(200);
 		}
 	});
+
 
 	$(".menu-overlay").click(function() {
 		$(".header-bottom").slideUp(200);
@@ -181,6 +179,11 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 			$(this).toggleClass("active");
 			$(this).next(".footer__content").slideToggle(200);
 		}); 
+
+			$(".title-sidebar").click(function() {
+		$(this).toggleClass("active");
+		$(".slidebar-catalog").slideToggle(200);
+	});
 	}
 }
 
