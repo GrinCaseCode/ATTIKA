@@ -91,6 +91,11 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
     }
   });
 
+	  $(".btn-sidebar").click(function() {
+	  	$(this).toggleClass("active");
+		$(".sidebar-nav li:not(.active)").slideToggle(200);
+	});
+
 	//слайдер
 
 	$('.slider-billbord').slick({
@@ -159,6 +164,47 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 			}
 		}
 		]
+	});
+
+	$('.slider-years').slick({
+		arrows: false,
+		dots: false,
+		infinite: true,
+		touchThreshold: 1000,
+		focusOnSelect: true,
+		slidesToShow: 9,
+		slidesToScroll: 1,
+		 asNavFor: '.slider-history',
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-arrow-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-arrow-right"></i><div/>',
+		responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 7,
+				slidesToScroll: 1,
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 5,
+			}
+		}
+		]
+	});
+
+	$('.slider-history').slick({
+		arrows: true,
+		dots: false,
+		infinite: true,
+		touchThreshold: 1000,
+		asNavFor: '.slider-years',
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-arrow-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-arrow-right"></i><div/>',
+
 	});
 
 	$('.tabs li a').click(function(event) {
