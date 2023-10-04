@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/wowbook/wow_book.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.7" />
+	<link rel="stylesheet" href="css/media.css?ver=1.7" />
+</head>
+<body>
+
+	<div class="wrapper wrapper_page">
+
+		<header class="header default">
+			<div class="header-top">
+				<div class="container">
+					<div class="header__wrapper">
+						<div class="header__left">
+							<a href="#" class="logo">
+								<img src="img/logo.svg" alt="alt">
+							</a>
+							<div class="main-language">
+								<div class="main-language__value">Ru</div>
+								<ul class="main-language__dropdown">
+									<li><a href="#">Ru</a></li>
+									<li><a href="#">Eng</a></li>
+								</ul>
+							</div>
+							<div class="header-search">
+								<form>
+									<input type="text" placeholder="Поиск" required="required">
+									<button class="btn-search"><i class="far fa-search"></i></button>
+								</form>
+								<div class="open-search"><i class="far fa-search"></i></div>
+							</div>
+						</div>
+						<div class="header__right">
+							<a href="#" class="btn-user">
+								<img src="img/user.svg" alt="alt">
+							</a>
+							<a href="tel:+79258716557" class="phone-main">+7 (925) 871-65-57</a>
+							<ul class="social-list">
+								<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+								<li><a href="#"><i class="fab fa-vk"></i></a></li>
+								<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+							</ul>
+							<a href="#" class="btn-call"><i class="fas fa-phone-alt"></i></a>
+						</div>
+						<span class='sandwich sandwich_mobile'>
+							<span class='sw-topper'></span>
+							<span class='sw-bottom'></span>
+							<span class='sw-footer'></span>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="header-bottom">
+				<div class="container">
+					<div class="header__wrapper">
+						<div class="header-bottom__mobile">
+							<div class="header-search">
+								<form>
+									<input type="text" placeholder="Поиск" required="required">
+									<button class="btn-search"><i class="far fa-search"></i></button>
+								</form>
+							</div>
+						</div>
+						<span class='sandwich sandwich_catalog'>
+							<span class='sw-topper'></span>
+							<span class='sw-bottom'></span>
+							<span class='sw-footer'></span>
+						</span>
+						<div class="dropdown-catalog">
+							<div class="dropdown-catalog__title">наша продукция  <i class="far fa-chevron-down"></i></div>
+							<ul>
+								<li><a href="#">Алкидные смолы</a></li>
+								<li><a href="#">Акриловые смолы</a></li>
+								<li><a href="#">Полиэфирные смолы насыщенные </a></li>
+								<li><a href="#">Ненасыщенные полиэфирные смолы</a></li>
+								<li><a href="#">Полиизоцианаты</a></li>
+							</ul>
+						</div>
+						<ul class="menu">
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Новости</a></li>
+							<li><a href="#">Условия работы</a></li>
+							<li><a href="#">Поддержка</a></li>
+							<li><a href="#">Заказ продукции</a></li>
+							<li><a href="#">Поставщикам</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+						<div class="header-bottom__mobile">
+							<div class="main-language">
+								<div class="main-language__value">Ru</div>
+								<ul class="main-language__dropdown">
+									<li><a href="#">Ru</a></li>
+									<li><a href="#">Eng</a></li>
+								</ul>
+							</div>
+							<ul class="social-list">
+								<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+								<li><a href="#"><i class="fab fa-vk"></i></a></li>
+								<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="menu-overlay"></div>
+		</header>
+
+		<section class="page-about">
+			<div class="container">
+				<ul class="breadcrumbs">
+					<li><a href="#">Главная</a></li>
+					<li>О компании</li>
+				</ul>
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="sidebar-nav-wrapper">
+							<div class="btn-sidebar"><i class="fas fa-chevron-down"></i></div>
+							<ul class="sidebar-nav">
+							<li class="active"><a href="#">История развития</a></li>
+							<li><a href="#">Наши преимущества</a></li>
+							<li><a href="#">Команда</a></li>
+							<li><a href="#">Отзывы</a></li>
+							<li><a href="#">Партнёры</a></li>
+							<li><a href="#">Вакансии</a></li>
+							<li><a href="#">Поставщикам</a></li>
+							<li><a href="#">Наши проекты</a></li>
+							<li><a href="#">Мероприятия</a></li>
+							<li><a href="#">Выставки</a></li>
+							<li><a href="#">Статьи</a></li>
+							<li><a href="#">Новости</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+						</div>
+					</div>
+					<div class="col-lg-9">
+						<div class="billbord-page">
+							<div class="billbord-page__image">
+								<img src="img/banner_history.jpg" alt="alt">
+							</div>
+							<div class="billbord-page__content">
+								<h1 class="title-big">История развития</h1>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-5">
+								<h2 class="title-main">Компания «ATTIKA»</h2>
+							</div>
+							<div class="col-lg-7 col_pl">
+								<div class="text-big">
+									<p><strong>Является российским производителем полимерных смол. <br>Деятельность на рынке химического сырья осуществляется с 2003 года.</strong></p>
+									<br>
+									<p><strong>Продукция поставляется для 2-х бизнес-сегментов:</strong></p>
+									<ul>
+										<li>Производство лакокрасочных материалов, клеев, герметиков</li>
+										<li>Производство композитных изделий</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="history-numbers">
+							<div class="row">
+								<div class="col-lg-5">
+									<p><strong>«ATTIKA» обладает четырьмя производственными площадками,</strong> которые расположены в Ленинградской области и Республике Башкортостан.</p>
+								</div>
+								<div class="col-lg-7">
+									<div class="row">
+										<div class="col-md-6">
+											<div class="history-numbers__item">
+												<div class="history-numbers__value">90%</div>
+												<p>Уровень автоматизации достигает</p>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="history-numbers__item">
+												<div class="history-numbers__value">24 000 <span>МТ</span></div>
+												<p>Объем выпускаемой продукции в год</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="text-big text-big_columns">
+							<p>Полимерные смолы компании «ATTIKA» широко представлены в России и странах СНГ. <br>ГК «ATTIKA» является участником национальной программы <b>«Импортозамещение».</b></p>
+							<p>Система управления качеством сертифицирована на соответствие требованиям международного стандарта <b>ISO 9001:2015</b></p>
+						</div>
+						<div class="history-about">
+							<div class="row">
+								<div class="col-lg-5">
+									<h2 class="title-main">Философия компании</h2>
+								</div>
+								<div class="col-lg-7">
+									<div class="text-big">
+										<p>предполагает дружелюбную атмосферу партнерства и взаимовыручки, открытость ко всему новому, постоянное самосовершенствование и обучение, поиск нестандартных решений, инициативу от сотрудников и соблюдение стандартов компании.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<h2 class="title-main">История развития</h2>
+						<ul class="slider-years">
+							<li>
+								<div class="slider-years__item">2003</div>
+							</li>
+							<li>
+								<div class="slider-years__item">2016</div>
+							</li>
+							<li>
+								<div class="slider-years__item">2017</div>
+							</li>
+							<li>
+								<div class="slider-years__item">2018</div>
+							</li>
+							<li>
+								<div class="slider-years__item">2019</div>
+							</li>
+							<li>
+								<div class="slider-years__item">2020</div>
+							</li>
+							<li>
+								<div class="slider-years__item">2021</div>
+							</li>
+							<li>
+								<div class="slider-years__item">2022</div>
+							</li>
+							<li>
+								<div class="slider-years__item">2023</div>
+							</li>
+						</ul>
+						<ul class="slider-history">
+							<li>
+								<div class="slider-history__item">
+									<div class="row">
+										<div class="col-md-8">
+											<div class="slider-history__block">
+												<div class="slider-history__title">Год основания компании</div>
+												<p>Компания «ATTIKA» работает на рынке химического сырья с 2003 года и является производителем полимерных смол в России. <br>На данный момент компания производит свою продукцию для 2-х бизнес сегментов:</p>
+												<ul>
+													<li>Производство клеев, герметиков, лакокрасочных материалов;</li>
+													<li>Производство композитных изделий;</li>
+												</ul>
+												<p>Продукция компании широко представлена в России, Республики Беларусь, Украине, Казахстане и Узбекистане</p>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="history-picture">
+												<div class="year-history year-history_top">2016</div>
+												<div class="history-picture__image">
+													<img src="img/year_img1.jpg" alt="alt">
+												</div>
+												<div class="year-history">2003</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="slider-history__item">
+									<div class="row">
+										<div class="col-md-8">
+											<div class="slider-history__block">
+												<div class="slider-history__title">Год основания компании</div>
+												<p>Компания «ATTIKA» работает на рынке химического сырья с 2003 года и является производителем полимерных смол в России. <br>На данный момент компания производит свою продукцию для 2-х бизнес сегментов:</p>
+												<ul>
+													<li>Производство клеев, герметиков, лакокрасочных материалов;</li>
+													<li>Производство композитных изделий;</li>
+												</ul>
+												<p>Продукция компании широко представлена в России, Республики Беларусь, Украине, Казахстане и Узбекистане</p>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="history-picture">
+												<div class="year-history year-history_top">2017</div>
+												<div class="history-picture__image">
+													<img src="img/year_img1.jpg" alt="alt">
+												</div>
+												<div class="year-history">2016</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="slider-history__item">
+									<div class="row">
+										<div class="col-md-8">
+											<div class="slider-history__block">
+												<div class="slider-history__title">Год основания компании</div>
+												<p>Компания «ATTIKA» работает на рынке химического сырья с 2003 года и является производителем полимерных смол в России. <br>На данный момент компания производит свою продукцию для 2-х бизнес сегментов:</p>
+												<ul>
+													<li>Производство клеев, герметиков, лакокрасочных материалов;</li>
+													<li>Производство композитных изделий;</li>
+												</ul>
+												<p>Продукция компании широко представлена в России, Республики Беларусь, Украине, Казахстане и Узбекистане</p>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="history-picture">
+												<div class="year-history year-history_top">2018</div>
+												<div class="history-picture__image">
+													<img src="img/year_img1.jpg" alt="alt">
+												</div>
+												<div class="year-history">2017</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="slider-history__item">
+									<div class="row">
+										<div class="col-md-8">
+											<div class="slider-history__block">
+												<div class="slider-history__title">Год основания компании</div>
+												<p>Компания «ATTIKA» работает на рынке химического сырья с 2003 года и является производителем полимерных смол в России. <br>На данный момент компания производит свою продукцию для 2-х бизнес сегментов:</p>
+												<ul>
+													<li>Производство клеев, герметиков, лакокрасочных материалов;</li>
+													<li>Производство композитных изделий;</li>
+												</ul>
+												<p>Продукция компании широко представлена в России, Республики Беларусь, Украине, Казахстане и Узбекистане</p>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="history-picture">
+												<div class="year-history year-history_top">2019</div>
+												<div class="history-picture__image">
+													<img src="img/year_img1.jpg" alt="alt">
+												</div>
+												<div class="year-history">2018</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="slider-history__item">
+									<div class="row">
+										<div class="col-md-8">
+											<div class="slider-history__block">
+												<div class="slider-history__title">Год основания компании</div>
+												<p>Компания «ATTIKA» работает на рынке химического сырья с 2003 года и является производителем полимерных смол в России. <br>На данный момент компания производит свою продукцию для 2-х бизнес сегментов:</p>
+												<ul>
+													<li>Производство клеев, герметиков, лакокрасочных материалов;</li>
+													<li>Производство композитных изделий;</li>
+												</ul>
+												<p>Продукция компании широко представлена в России, Республики Беларусь, Украине, Казахстане и Узбекистане</p>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="history-picture">
+												<div class="year-history year-history_top">2020</div>
+												<div class="history-picture__image">
+													<img src="img/year_img1.jpg" alt="alt">
+												</div>
+												<div class="year-history">2019</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="slider-history__item">
+									<div class="row">
+										<div class="col-md-8">
+											<div class="slider-history__block">
+												<div class="slider-history__title">Год основания компании</div>
+												<p>Компания «ATTIKA» работает на рынке химического сырья с 2003 года и является производителем полимерных смол в России. <br>На данный момент компания производит свою продукцию для 2-х бизнес сегментов:</p>
+												<ul>
+													<li>Производство клеев, герметиков, лакокрасочных материалов;</li>
+													<li>Производство композитных изделий;</li>
+												</ul>
+												<p>Продукция компании широко представлена в России, Республики Беларусь, Украине, Казахстане и Узбекистане</p>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="history-picture">
+												<div class="year-history year-history_top">2021</div>
+												<div class="history-picture__image">
+													<img src="img/year_img1.jpg" alt="alt">
+												</div>
+												<div class="year-history">2020</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="slider-history__item">
+									<div class="row">
+										<div class="col-md-8">
+											<div class="slider-history__block">
+												<div class="slider-history__title">Год основания компании</div>
+												<p>Компания «ATTIKA» работает на рынке химического сырья с 2003 года и является производителем полимерных смол в России. <br>На данный момент компания производит свою продукцию для 2-х бизнес сегментов:</p>
+												<ul>
+													<li>Производство клеев, герметиков, лакокрасочных материалов;</li>
+													<li>Производство композитных изделий;</li>
+												</ul>
+												<p>Продукция компании широко представлена в России, Республики Беларусь, Украине, Казахстане и Узбекистане</p>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="history-picture">
+												<div class="year-history year-history_top">2022</div>
+												<div class="history-picture__image">
+													<img src="img/year_img1.jpg" alt="alt">
+												</div>
+												<div class="year-history">2021</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="slider-history__item">
+									<div class="row">
+										<div class="col-md-8">
+											<div class="slider-history__block">
+												<div class="slider-history__title">Год основания компании</div>
+												<p>Компания «ATTIKA» работает на рынке химического сырья с 2003 года и является производителем полимерных смол в России. <br>На данный момент компания производит свою продукцию для 2-х бизнес сегментов:</p>
+												<ul>
+													<li>Производство клеев, герметиков, лакокрасочных материалов;</li>
+													<li>Производство композитных изделий;</li>
+												</ul>
+												<p>Продукция компании широко представлена в России, Республики Беларусь, Украине, Казахстане и Узбекистане</p>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="history-picture">
+												<div class="year-history year-history_top">2023</div>
+												<div class="history-picture__image">
+													<img src="img/year_img1.jpg" alt="alt">
+												</div>
+												<div class="year-history">2022</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="slider-history__item">
+									<div class="row">
+										<div class="col-md-8">
+											<div class="slider-history__block">
+												<div class="slider-history__title">Год основания компании</div>
+												<p>Компания «ATTIKA» работает на рынке химического сырья с 2003 года и является производителем полимерных смол в России. <br>На данный момент компания производит свою продукцию для 2-х бизнес сегментов:</p>
+												<ul>
+													<li>Производство клеев, герметиков, лакокрасочных материалов;</li>
+													<li>Производство композитных изделий;</li>
+												</ul>
+												<p>Продукция компании широко представлена в России, Республики Беларусь, Украине, Казахстане и Узбекистане</p>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="history-picture">
+												
+												<div class="history-picture__image">
+													<img src="img/year_img1.jpg" alt="alt">
+												</div>
+												<div class="year-history">2023</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<h2 class="title-main">Наши заводы</h2>
+						<div class="factories-wrap">
+							<div class="item-factory" id="item-factory-1">
+								<p>Россия, Ленинградская область, Тосненский район, д. Аннолово, Федоровское сп, <br>2-й Вертикальный проезд, 9</p>
+								<div class="item-factory__image">
+									<img src="img/map_factory1.jpg" alt="alt">
+								</div>
+							</div>
+							<div class="item-factory" id="item-factory-2">
+								<p>Россия, Ленинградская область, Тосненский район, д. Аннолово, Федоровское сп, <br>2-й Вертикальный проезд, 9</p>
+								<div class="item-factory__image">
+									<img src="img/map_factory1.jpg" alt="alt">
+								</div>
+							</div>
+							<div class="item-factory" id="item-factory-3">
+								<p>Россия, Ленинградская область, Тосненский район, д. Аннолово, Федоровское сп, <br>2-й Вертикальный проезд, 9</p>
+								<div class="item-factory__image">
+									<img src="img/map_factory1.jpg" alt="alt">
+								</div>
+							</div>
+							<div class="item-factory" id="item-factory-4">
+								<p>Россия, Ленинградская область, Тосненский район, д. Аннолово, Федоровское сп, <br>2-й Вертикальный проезд, 9</p>
+								<div class="item-factory__image">
+									<img src="img/map_factory1.jpg" alt="alt">
+								</div>
+							</div>
+							<div class="item-factory" id="item-factory-5">
+								<p>Россия, Ленинградская область, Тосненский район, д. Аннолово, Федоровское сп, <br>2-й Вертикальный проезд, 9</p>
+								<div class="item-factory__image">
+									<img src="img/map_factory1.jpg" alt="alt">
+								</div>
+							</div>
+							<div class="item-factory" id="item-factory-6">
+								<p>Россия, Ленинградская область, Тосненский район, д. Аннолово, Федоровское сп, <br>2-й Вертикальный проезд, 9</p>
+								<div class="item-factory__image">
+									<img src="img/map_factory1.jpg" alt="alt">
+								</div>
+							</div>
+							<div id="map-factories"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3">
+						<a href="#" class="logo">
+							<img src="img/logo2.svg" alt="alt">
+						</a>
+						<div class="requisites">
+							<p>Главный офис</p>
+							<p>ООО «Aттика Логистика»</p>
+							<p>187046, Россия, Ленинградская обл., </p>
+							<p>Тосненский р-н, д. Аннолово,</p>
+							<p>Федоровское сельское поселение, </p>
+							<p>2-й Вертикальный проезд, 9, к 1</p>
+							<p>ОГРН: 1117847130895; </p>
+							<p>ИНН: 7841442909</p>
+							<br>
+							<p>info@attikarus.ru</p>
+						</div>
+						<a href="tel:+79258716557" class="phone-main">+7 (925) 871-65-57</a>
+						<ul class="list-social">
+							<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+							<li><a href="#"><i class="fab fa-vk"></i></a></li>
+							<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-2 col_pl">
+						<div class="footer__column">
+							<div class="footer__title">отрасли применения  <i class="fas fa-chevron-down"></i></div>
+							<div class="footer__content">
+								<ul class="footer__nav">
+									<li><a href="#">Индустриальные покрытия</a></li>
+									<li><a href="#">Авторемонт</a></li>
+									<li><a href="#">Покрытия для коммерческого </a></li>
+									<li><a href="#">и сельхоз транспорта</a></li>
+									<li><a href="#">Покрытия по бетону и асфальту</a></li>
+									<li><a href="#">Композитные изделия</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col_lr">
+						<div class="footer__title">наша продукция  <i class="fas fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Алкидные смолы</a></li>
+								<li><a href="#">Акриловые смолы</a></li>
+								<li><a href="#">Полиэфирные смолы насыщенные </a></li>
+								<li><a href="#">Ненасыщенные полиэфирные смолы</a></li>
+								<li><a href="#">Полиизоцианаты</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<ul class="footer__nav footer__nav_big">
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Новости</a></li>
+							<li><a href="#">Условия работы</a></li>
+							<li><a href="#">Поддержка</a></li>
+							<li><a href="#">Заказ продукции</a></li>
+							<li><a href="#">Поставщикам</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col_pl">
+						<div class="footer__title">представительства «attika» </div>
+						<div id="map"></div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg">
+							<a href="#">Политика конфиденциальности </a>
+						</div>
+						<div class="col-lg">
+							<a href="#">Антикоррупционная политика</a>
+						</div>
+						<div class="col-lg">
+							<p> © Copyright  2023 г.</p>
+						</div>
+						<div class="col-lg">
+							<div class="create">Сделано в <a href="#"><img src="img/copy.svg" alt="alt"></a></div>
+						</div>
+						<div class="col-lg">
+							<a href="#" class="btn_top"><i class="far fa-arrow-up"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/wowbook/wow_book.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.7"></script>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+<script>
+	$(document).ready(function() {
+		ymaps.ready(init);
+
+		function init() {
+			var myMap = new ymaps.Map('map', {
+				center: [50.886551, 44.562018],
+				zoom: 3
+			}, {
+				searchControlProvider: 'yandex#search'
+			});		
+
+			myPlacemark1 = new ymaps.Placemark([59.327442, 34.010747], {
+			}, {
+				iconLayout: 'default#image',
+				iconImageHref: 'img/pin.svg',
+				hideIconOnBalloonOpen: false,
+				iconImageSize: [25, 28],
+				iconImageOffset: [-12, -28],
+				balloonOffset: [0, -28]
+			});
+			myPlacemark2 = new ymaps.Placemark([55.812521, 37.702154], {
+			}, {
+				iconLayout: 'default#image',
+				iconImageHref: 'img/pin.svg',
+				hideIconOnBalloonOpen: false,
+				iconImageSize: [25, 28],
+				iconImageOffset: [-12, -28],
+				balloonOffset: [0, -28]
+			});
+			myPlacemark3 = new ymaps.Placemark([54.810001, 40.119146], {
+			}, {
+				iconLayout: 'default#image',
+				iconImageHref: 'img/pin.svg',
+				hideIconOnBalloonOpen: false,
+				iconImageSize: [25, 28],
+				iconImageOffset: [-12, -28],
+				balloonOffset: [0, -28]
+			});
+			myPlacemark4 = new ymaps.Placemark([54.733783, 55.983404], {
+			}, {
+				iconLayout: 'default#image',
+				iconImageHref: 'img/pin.svg',
+				hideIconOnBalloonOpen: false,
+				iconImageSize: [25, 28],
+				iconImageOffset: [-12, -28],
+				balloonOffset: [0, -28]
+			});
+			myPlacemark5 = new ymaps.Placemark([45.238646, 38.827155], {
+			}, {
+				iconLayout: 'default#image',
+				iconImageHref: 'img/pin.svg',
+				hideIconOnBalloonOpen: false,
+				iconImageSize: [25, 28],
+				iconImageOffset: [-12, -28],
+				balloonOffset: [0, -28]
+			});
+			myPlacemark6 = new ymaps.Placemark([46.284401, 48.099616], {
+			}, {
+				iconLayout: 'default#image',
+				iconImageHref: 'img/pin.svg',
+				hideIconOnBalloonOpen: false,
+				iconImageSize: [25, 28],
+				iconImageOffset: [-12, -28],
+				balloonOffset: [0, -28]
+			});
+			myMap.controls.remove('searchControl');
+			myMap.behaviors.disable('scrollZoom');
+			myMap.geoObjects.add(myPlacemark1);
+			myMap.geoObjects.add(myPlacemark2);
+			myMap.geoObjects.add(myPlacemark3);
+			myMap.geoObjects.add(myPlacemark4);
+			myMap.geoObjects.add(myPlacemark5);
+			myMap.geoObjects.add(myPlacemark6);
+
+			myMap.controls.remove('geolocationControl');
+			myMap.controls.remove('searchControl'); 
+			myMap.controls.remove('trafficControl'); 
+			myMap.controls.remove('typeSelector');
+			myMap.controls.remove('fullscreenControl'); 
+			myMap.controls.remove('zoomControl');
+			myMap.controls.remove('rulerControl');
+			myMap.behaviors.disable(['scrollZoom']); 
+
+		}
+	});
+</script>
+<script>
+	$(document).ready(function() {
+		ymaps.ready(init);
+
+		function init() {
+			var myMap = new ymaps.Map('map-factories', {
+				center: [50.886551, 44.562018],
+				zoom: 4
+			}, {
+				searchControlProvider: 'yandex#search'
+			});		
+
+			myPlacemark1 = new ymaps.Placemark([59.327442, 34.010747], {
+			}, {
+				iconLayout: 'default#image',
+				iconImageHref: 'img/pin.svg',
+				hideIconOnBalloonOpen: false,
+				iconImageSize: [25, 28],
+				iconImageOffset: [-12, -28],
+				balloonOffset: [0, -28]
+			});
+			myPlacemark2 = new ymaps.Placemark([55.812521, 37.702154], {
+			}, {
+				iconLayout: 'default#image',
+				iconImageHref: 'img/pin.svg',
+				hideIconOnBalloonOpen: false,
+				iconImageSize: [25, 28],
+				iconImageOffset: [-12, -28],
+				balloonOffset: [0, -28]
+			});
+			myPlacemark3 = new ymaps.Placemark([54.810001, 40.119146], {
+			}, {
+				iconLayout: 'default#image',
+				iconImageHref: 'img/pin.svg',
+				hideIconOnBalloonOpen: false,
+				iconImageSize: [25, 28],
+				iconImageOffset: [-12, -28],
+				balloonOffset: [0, -28]
+			});
+			myPlacemark4 = new ymaps.Placemark([54.733783, 55.983404], {
+			}, {
+				iconLayout: 'default#image',
+				iconImageHref: 'img/pin.svg',
+				hideIconOnBalloonOpen: false,
+				iconImageSize: [25, 28],
+				iconImageOffset: [-12, -28],
+				balloonOffset: [0, -28]
+			});
+			myPlacemark5 = new ymaps.Placemark([45.238646, 38.827155], {
+			}, {
+				iconLayout: 'default#image',
+				iconImageHref: 'img/pin.svg',
+				hideIconOnBalloonOpen: false,
+				iconImageSize: [25, 28],
+				iconImageOffset: [-12, -28],
+				balloonOffset: [0, -28]
+			});
+			myPlacemark6 = new ymaps.Placemark([46.284401, 48.099616], {
+			}, {
+				iconLayout: 'default#image',
+				iconImageHref: 'img/pin.svg',
+				hideIconOnBalloonOpen: false,
+				iconImageSize: [25, 28],
+				iconImageOffset: [-12, -28],
+				balloonOffset: [0, -28]
+			});
+			myMap.controls.remove('searchControl');
+			myMap.behaviors.disable('scrollZoom');
+			myMap.geoObjects.add(myPlacemark1);
+			myMap.geoObjects.add(myPlacemark2);
+			myMap.geoObjects.add(myPlacemark3);
+			myMap.geoObjects.add(myPlacemark4);
+			myMap.geoObjects.add(myPlacemark5);
+			myMap.geoObjects.add(myPlacemark6);
+
+			myPlacemark1.events.add(['click'],  function (e) {
+				$(".item-factory").fadeOut(200);
+				$("#item-factory-1").fadeIn(200);
+			});
+			myPlacemark2.events.add(['click'],  function (e) {
+				$(".item-factory").fadeOut(200);
+				$("#item-factory-2").fadeIn(200);
+			});
+			myPlacemark3.events.add(['click'],  function (e) {
+				$(".item-factory").fadeOut(200);
+				$("#item-factory-3").fadeIn(200);
+			});
+			myPlacemark4.events.add(['click'],  function (e) {
+				$(".item-factory").fadeOut(200);
+				$("#item-factory-4").fadeIn(200);
+			});
+			myPlacemark5.events.add(['click'],  function (e) {
+				$(".item-factory").fadeOut(200);
+				$("#item-factory-5").fadeIn(200);
+			});
+			myPlacemark6.events.add(['click'],  function (e) {
+				$(".item-factory").fadeOut(200);
+				$("#item-factory-6").fadeIn(200);
+			});
+
+			myMap.controls.remove('geolocationControl');
+			myMap.controls.remove('searchControl'); 
+			myMap.controls.remove('trafficControl'); 
+			myMap.controls.remove('typeSelector');
+			myMap.controls.remove('fullscreenControl'); 
+			myMap.controls.remove('zoomControl');
+			myMap.controls.remove('rulerControl');
+			myMap.behaviors.disable(['scrollZoom']); 
+
+		}
+	});
+</script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
