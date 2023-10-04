@@ -1390,6 +1390,16 @@ div.col_pl {
     .item-project__image {
         margin-top: 20px;
     }
+    .sidebar-nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .sidebar-nav li {
+        width: 100%;
+    }
+    .sidebar-nav .active {
+        order: -1;
+    }
 }
 
 /* Small Devices, Tablets */
