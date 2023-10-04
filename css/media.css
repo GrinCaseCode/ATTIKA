@@ -1645,6 +1645,9 @@ div.col_pl {
 .row_units {
     margin: 0 -5px;
 }
+.wrapper-block .pager {
+    margin-top: 15px;
+}
 }
 
 /* Extra Small Devices, Phones */
