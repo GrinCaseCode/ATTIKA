@@ -246,6 +246,12 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		$(this).toggleClass("active");
 		$(".slidebar-catalog").slideToggle(200);
 	});
+
+			$(".location").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#map-contacts").offset().top - 55
+                }, 2000);
+            });
 	}
 }
 
