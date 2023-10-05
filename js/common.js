@@ -18,6 +18,22 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
     $menu.removeClass("fixed").addClass("default");
   }
 
+/*input file*/
+	$("input[type='file']").change(function(){
+		var filename_text = $(this).parent().siblings(".name-upload");
+		var filename = $(this).val().replace(/.*\\/, "");
+		filename_text.html(filename);
+	});
+
+	 $(".item-question__head").click(function() {
+    $(this).parent().toggleClass("active");
+    $(this).siblings().slideToggle(200);
+    $(this).parent().siblings(".item-question").removeClass("active");
+    $(this).parent().siblings(".item-question").find(".item-question__content").slideUp(200);
+  });
+
+	   $("*[data-video-id]").modalVideo();
+	
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
 
