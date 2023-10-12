@@ -223,6 +223,79 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 
 	});
 
+	$('.slider-team').slick({
+		arrows: true,
+		dots: false,
+		infinite: true,
+		touchThreshold: 1000,
+		rows: 2,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-arrow-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-arrow-right"></i><div/>',
+		responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 2,
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 2,
+				slidesToScroll: 2,
+				arrows: false,
+		dots: true,
+			}
+		}
+		]
+	});
+
+	$('.slider-for').slick({
+		arrows: false,
+		dots: false,
+		infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		asNavFor: '.slider-nav',
+		touchThreshold: 1000,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+	});
+
+	$('.slider-nav').slick({
+		arrows: true,
+		dots: false,
+		infinite: true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		vertical: true,
+		verticalSwiping: true,
+		asNavFor: '.slider-for',
+		touchThreshold: 1000,
+		focusOnSelect: true,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		responsive: [
+		{
+			breakpoint: 768,
+			settings: {
+				vertical: false,
+				verticalSwiping: false,
+			}
+		},
+		{
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 3,
+				vertical: false,
+				verticalSwiping: false,
+			}
+		}
+		]
+	});
+
 	$('.tabs li a').click(function(event) {
 		event.preventDefault();
 		$(this).parent().parent().find("li").removeClass('active');
@@ -231,6 +304,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		var selectTab = $(this).attr("href");
 		$(selectTab).fadeIn(200);
 		$(this).parent().parent().parent().find('.slider-catalog').slick('setPosition');
+		$(this).parent().parent().parent().find('.slider-team').slick('setPosition');
 	});
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
