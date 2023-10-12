@@ -2227,6 +2227,9 @@ div.col_pl {
     padding: 0 15px;
     margin-bottom: 15px;
 }
+.tabs_persons {
+    padding-right: 15px;
+}
 }
 
 /* Extra Small Devices, Phones */
