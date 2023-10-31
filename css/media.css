@@ -30,9 +30,9 @@
         font-size: 15px;
     }
     .btn-user img {
-     max-width: 18px;
- }
- .header-search.active form {
+       max-width: 18px;
+   }
+   .header-search.active form {
     width: 375px;
 }
 .sandwich {
@@ -151,8 +151,8 @@
     margin-right: 15px;
 }
 .item-advantage__icon img {
- max-width: 100%;
- max-height: 100%;
+   max-width: 100%;
+   max-height: 100%;
 }
 .item-advantage {
     height: 210px;
@@ -881,6 +881,56 @@
 .text-small {
     font-size: 13px;
 }
+
+.sidebar-news .item-news__title {
+    margin-bottom: 22px;
+}
+.sidebar-news .item-news {
+    margin-bottom: 25px;
+}
+.nav-article__head {
+    font-size: 21px;
+    padding: 13px 19px;
+}
+.nav-article__head i {
+    margin-left: 33px;
+    font-size: 11px;
+}
+.head-article__item {
+    font-size: 12px;
+    padding-left: 33px;
+    margin-right: 100px;
+}
+.head-article {
+    padding-bottom: 17px;
+    margin-bottom: 13px;
+}
+.article-content h2 {
+    font-size: 26px;
+    margin-top: 23px;
+}
+.table-main table th {
+    font-size: 18px;
+}
+.table-main table th, .table-main table td {
+    padding: 10px 40px;
+}
+.alert-main {
+    padding-bottom: 25px;
+}
+.article-content i {
+    padding: 20px 0;
+    margin: 20px 0;
+}
+.article-info {
+    padding: 32px 35px;
+}
+.article-content ol li {
+    margin-top: 12px;
+}
+.nav-article__content li ul {
+    font-size: 13px;
+}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -908,9 +958,9 @@
         margin-right: -16px;
     }
     .billbord .row {
-     margin: 0 -6px;
- }
- .item-banner__title {
+       margin: 0 -6px;
+   }
+   .item-banner__title {
     font-size: 17px;
 }
 .item-banner__value {
@@ -1384,6 +1434,34 @@
 .page-card {
     padding-bottom: 50px;
 }
+
+.article-content h2 {
+    font-size: 23px;
+    margin-top: 21px;
+}
+.table-main table th {
+    font-size: 16px;
+}
+.table-main table th, .table-main table td {
+    padding: 10px 25px;
+}
+.article-info {
+    padding: 15px 20px;
+}
+.sidebar-news .title-middle {
+    padding-bottom: 15px;
+}
+.sidebar-news {
+    padding: 17px 15px;
+    padding-bottom: 1px;
+}
+.nav-article__head {
+    font-size: 18px;
+    padding: 12px 15px;
+}
+.nav-article__head i {
+    margin-left: 28px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -1393,13 +1471,13 @@
 	.header__wrapper .social-list,
 	.header__wrapper .phone-main,
     .header__wrapper .main-language {
-     display: none;
- }
- .item-banner {
-     margin-top: 20px;
-     margin-bottom: 0;
- }
- .item-news__image {
+       display: none;
+   }
+   .item-banner {
+       margin-top: 20px;
+       margin-bottom: 0;
+   }
+   .item-news__image {
     height: 165px;
 }
 .tabs {
@@ -1527,9 +1605,9 @@ div.col_pl {
 	justify-content: space-between;
 }
 .btn-call {
- border: 1px solid #F3F3F3;
- color: #2E4292;
- background-color: transparent;
+   border: 1px solid #F3F3F3;
+   color: #2E4292;
+   background-color: transparent;
 }
 .header-bottom .header__wrapper {
 	display: block;
@@ -1560,9 +1638,9 @@ div.col_pl {
 	justify-content: space-between;
 	border-bottom: 1px solid #2E4292;
 	text-transform: uppercase;
- font-weight: 600;
- line-height: normal;
- letter-spacing: 0.75px;
+   font-weight: 600;
+   line-height: normal;
+   letter-spacing: 0.75px;
 }
 .dropdown-catalog ul {
 	padding: 15px;
@@ -1861,6 +1939,31 @@ div.col_pl {
     font-size: 11px;
     margin-bottom: 0;
 }
+
+.nav-article__content {
+    display: none;
+}
+.nav-article__head i {
+    transform: rotate(180deg);
+}
+.nav-article__head.active i {
+    transform: rotate(0deg);
+}
+.hidden-mobile {
+    display: none !important;
+}
+.nav-article {
+    margin-bottom: 20px;
+}
+.article-info {
+    padding: 20px 22px;
+}
+.sidebar-news .item-news__image {
+    height: 250px;
+}
+.sidebar-news {
+    margin-top: 20px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -1871,9 +1974,9 @@ div.col_pl {
         line-height: 130%;
     }
     .list-page li {
-     margin-bottom: 8px;
- }
- .title-big {
+       margin-bottom: 8px;
+   }
+   .title-big {
     font-size: 30px;
 }
 .title-big span {
@@ -2230,22 +2333,46 @@ div.col_pl {
 .tabs_persons {
     padding-right: 15px;
 }
+
+.article-content h2 {
+    font-size: 20px;
+    margin: 15px 0;
+}
+.article-content img {
+    margin: 15px 0;
+}
+.article-content i {
+    padding: 15px 0;
+    margin: 15px 0;
+}
+.table-main table th, .table-main table td {
+    padding: 10px 15px;
+}
+.page-article .breadcrumbs {
+    padding-bottom: 15px;
+}
+.nav-article__head {
+    justify-content: space-between;
+}
+.sidebar-news .item-news__image {
+    height: 205px;
+}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
     .slider-billbord {
-     margin: 0 -15px;
- }
- .item-billbord {
-     padding: 0 15px;
-     border-radius: 0;
- }
- .list-page li::before {
-     width: 15px;
-     height: 15px;
- }
- .item-billbord .list-page {
+       margin: 0 -15px;
+   }
+   .item-billbord {
+       padding: 0 15px;
+       border-radius: 0;
+   }
+   .list-page li::before {
+       width: 15px;
+       height: 15px;
+   }
+   .item-billbord .list-page {
     max-width: 215px;
     font-size: 12px;
 }
@@ -2257,9 +2384,9 @@ div.col_pl {
     bottom: 8px;
 }
 .item-principle {
- font-size: 13px;
- line-height: 120%;
- margin-bottom: 18px;
+   font-size: 13px;
+   line-height: 120%;
+   margin-bottom: 18px;
 }
 .title-middle {
     font-size: 18px;
@@ -2315,8 +2442,8 @@ div.col_pl {
     max-width: 332px;
 }
 .partners-block {
- padding: 0 15px;
- padding-bottom: 55px;
+   padding: 0 15px;
+   padding-bottom: 55px;
 }
 .head-section .btn-main {
     padding: 0 14px;
@@ -2732,6 +2859,17 @@ div.col_pl {
 .card-info__buttons .btn-main {
     font-size: 12px;
 }
+
+.alert-main {
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+.article-content ol li {
+    margin-top: 8px;
+}
+.sidebar-news .item-news__image {
+    height: 163px;
+}
 }
 
 /* Custom, iPhone Retina */
@@ -2762,8 +2900,12 @@ div.col_pl {
     .slidebar-catalog,
     .footer__content,
     .header-bottom {
-     display: block !important;
- }
+       display: block !important;
+   }
+
+   .hidden-desktop {
+    display: none !important;
+}
 }
 
 /* Large Devices, Wide Screens */

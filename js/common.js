@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+ $(".nav-article__head").click(function() {
+    $(this).toggleClass("active");
+    $(".nav-article__content").slideToggle(200);
+  });
 
 //прилипающие меню
 var $menu = $(".header");
@@ -35,7 +39,9 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	   $("*[data-video-id]").modalVideo();
 	
 	//плавный скролл
-	$(".navigat li a").mPageScroll2id();
+	$(".nav-article__content li a").mPageScroll2id({
+		offset: 110
+	});
 
 
 
